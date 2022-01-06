@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;500&display=swap');
+
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+header{
+    padding: 15px 15px 15px 15px;
+    background-color: #00A862;
+}
+
+.logo {
+    height: auto;
+    width: 250px;
+    margin-left: 20px;
+}
+
+/* Menu */
+ul {
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+}
+ul li:hover {
+    transform: scale(1.50);
+    color: #00A862;
+    cursor: pointer;
+}
+
+.proper {
+    padding: 45px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.conversion-table {
+    margin-top: 20px;
+    padding: 35px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+table .value {
+    font-size: 25px;
+}
+
+table .unit {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
